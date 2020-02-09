@@ -1,0 +1,107 @@
+body {
+    background-color: #EEEEEE;
+    width: 1050px;
+    margin: auto;
+}
+header {
+    height: 180px;
+}
+h1 {
+    text-align: center;
+    font-family: serif;
+    margin-top: 20px
+}
+.hader-navigation {
+    background-color: black;
+    height: 70px;
+    
+}
+li {
+   list-style: none;
+   color: white;
+   float: left;
+   font-size: 20px;
+   padding: 20px;
+} 
+li:after, main:after, content-main:after, side:after, .side-contents:after, .image:after{
+    clear: both;
+    display: block;
+    content: "";
+}
+ul{
+    display: inline-block;
+}
+.conteiner {
+    width: 1000px;
+}
+main {
+    width: 700px;
+    /*height: 700px;*/
+    float: left;
+    margin-left: 20px;
+}
+.content {
+    height: 200px;
+}
+
+.content-main {
+    float: left;
+    width: 500px;
+}
+
+.picto {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.date {
+    font-size: 20px;
+}
+.blog-title {
+    color: #0066CC;
+    font-size: 25px;
+    margin: 10px 0;
+}
+.content {
+    margin-bottom: 20px
+}
+side {
+    width: 300px;
+    /*height: 700px;*/
+    float: left;
+    margin-left: 10px;
+}   
+.side-content{
+    /*float: left;*/
+    /*width: 250px;*/
+    margin-bottom: 15px;
+    height: 80px;
+}
+.article {
+    width: 250px;
+    font-size: 30px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+.minipicto {
+    float: left;
+}
+
+.side-title {
+    color: #0066CC;
+}
+.company {
+    text-align: center;
+    border-top: 1px solid gray;
+    padding-top: 15px;
+    margin-bottom: 50px;
+}
+
+footer{
+    clear: both;
+}
+
+
+
